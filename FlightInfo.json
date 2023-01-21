@@ -1,0 +1,89 @@
+{
+  "departure": "DUB",
+  "arrival": "SIN",
+  "schedules": [
+    {
+      "itineraryVariationIdentifier": 1,
+      "legSequenceNumber": 1,
+      "serviceType": "J",
+      "operationBegin": "06ABR20",
+      "operationEnd": "21DEZ20",
+      "utcOffsetDS": "+0100",
+      "passengerDepartureTerminal": "5",
+      "aircraftSTA": "1745",
+      "passengerSTA": "1745",
+      "utcOffsetAS": "+0800",
+      "passengerArrivalTerminal": "1",
+      "aircraftType": "777",
+      "prbd": "XX",
+      "secureFlightIndicator": "S",
+      "automatedCheckIn": "A",
+      "operatingAirline": "OPERATING_FLIGHT",
+      "departureDayDifference": 0,
+      "arrivalDayDifference": 1,
+      "recordSerialNumber": "098457",
+      
+      "flightDesignator": {
+        "airlineDesignator": "BA",
+        "flightNumber": "15",
+        "flightOperator": false
+      },
+      "marketingCarriers": [
+        {
+          "airlineDesignator": "QF",
+          "flightNumber": "3100",
+          "flightOperator": false
+        },
+        {
+          "airlineDesignator": "TN",
+          "flightNumber": "1101",
+          "flightOperator": false
+        }
+      ],
+      "dayOfOperation": [
+        "MONDAY",
+        "TUESDAY",
+        "THURSDAY",
+        "FRIDAY",
+        "SATURDAY",
+        "SUNDAY"
+      ],
+      "departureStation": {
+        "continent": "EU",
+        "countryCode": "IE",
+        "name": "Dublin Airport",
+        "iataCode": "DUB",
+        "icaoCode": "EIDW",
+        "city": "Dublin",
+        "country": "Ireland",
+        "timezone": "Europe/Dublin"
+      },
+      "arrivalStation": {
+        "continent": "AS",
+        "countryCode": "SG",
+        "name": "Singapore Changi Airport",
+        "iataCode": "SIN",
+        "icaoCode": "WSSS",
+        "city": "Singapore",
+        "country": "Singapore",
+        "timezone": "Asia/Singapore"
+      },
+      "mealService": {
+        "mealServicePerClass": [
+          {
+            "mealService": "Meal Service for more than 5 classes"
+          }
+        ]
+      },
+      "mct": {
+        "departure": "dMCT",
+        "arrival": "aMCT"
+      },
+      "onwardFlight": {
+        "airlineDesignator": "BA",
+        "flightNumber": "BA"
+      }
+    }
+  ],
+  "continuationToken": "Aw=="
+}
