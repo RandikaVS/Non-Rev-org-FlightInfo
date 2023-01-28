@@ -63,7 +63,7 @@
                         <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="list">
                             <option>---Give location permission to get your nearest airport---</option>
                         </select>
-                        <br>
+                        <br>  
                         <div class="row">
                         <div class="col-md-12 col-lg-6 col-sm-12">
                                 
@@ -101,11 +101,20 @@
                     </div>
                     <br>
                     <button type="button" style="background-color:#327dff; border-radius:10px; width:100%; height:40px; font-size:20px" onclick="searchByDateTime()">Search</button>
-                    <a href="#" ><p style="margin-left:35vw;" onclick="resetDate()"><u>Reset</u></p></a>
-                    
+                    <a href="#" ><p style="margin-left:35vw;" onclick="resetDate()"><u>Reset</u></p></a>        
         </div>
-  </div>
+
+        <div class="input-group" >
+                                <div class="form-outline " style="width:500px">
+                                    <input id="airportCode" type="search" id="form1" class="form-control" placeholder="Enter Airport ICAO Code" />
+                                </div>
+                                    <button type="button" onclick="airportCodeClick()" style="background-color:#327dff; border-radius:10px;         width:80px; border:none;" ><i class="fas fa-search"></i></button>
+                                </div>
+                        </div>
+          
+
 </div>
+
 
 <div class="container" style="border:1px">
 <table class="table table-striped" id="tables" width="100%">
